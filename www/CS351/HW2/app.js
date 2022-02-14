@@ -70,5 +70,13 @@
 
 // // event listener for select
 
-
-console.log("hello");
+const form = document.getElementById('main_form');
+const list = document.querySelector('#input_list');
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = document.querySelector('#userInput');
+    const newitem = document.createElement('li');
+    newitem.innerHTML(input.value);
+    list.append(newitem);
+    input.value = '';
+})
