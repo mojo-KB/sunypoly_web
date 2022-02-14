@@ -14,6 +14,11 @@
 <body>
 
 
+    <!--fixed-top -->
+
+    <div id="nav_spacing"></div>
+
+
     <ul class="nav justify-content-center navbar fixed-top">
         <li class="nav-item">
             <img src="https://sunypoly.edu/sites/default/files/communications/Primary-horizontal-white-text.png" alt="sunypoly logo" id="school-logo"></li>
@@ -26,16 +31,30 @@
     </ul>
 
 
+    <label for="category">Choose a category: </label>
+    <select name="category_list" id="category_list">
+        <option value="default">Please select an option available</option>
+        <option value="sports">Sports</option>
+        <option value="movies">Movies</option>
+        <option value="songs">Songs</option>
+        <option value="activities">Activities</option>
+        <option value="games">Games</option>
+    </select>
 
-    <select class="form-select" aria-label="Default select example">
-        <option selected>Select Category</option>
-        <option value="1">Movies</option>
-        <option value="2">Songs</option>
-        <option value="3">Books</option>
-      </select>
+    <form action="/.." id="main_form">
+        <div id="input">
+            <input type="text" name="userInput" id="userInput" placeholder="Please choose an option.">
+            <button>submit</button>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+        <ul id=" input_list "></ul>
+
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="app.js "></script>
 </body>
 
 </html>

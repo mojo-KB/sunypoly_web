@@ -1,15 +1,74 @@
-// Styling using javascript 
+// function start() {
+//     document.getElementById("category_list").addEventListener("change", addActivityItem, false);
+// }
 
-//document.querySelector('img').style.width("150px");
+// function addActivityItem() {
+
+//     //alert("yeah");
+// }
+
+// window.addEventListener("load", start, false);
+
+// const categoryList = document.querySelector('#category_list');
+// categoryList.addEventListener('change', (e) => {
+//     e.preventDefault();
+//     let form = document.getElementById('main_form');
+//     let inputHTML = document.createElement('input');
+//     inputHTML.name = 'userInput';
+//     inputHTML.id = 'userInput';
+//     inputHTML.placeholder = 'Enter Item';
+//     let buttonHTML = document.createElement('button');
+//     buttonHTML.innerHTML = 'submit';
+//     form.append(inputHTML, buttonHTML);
+
+//     let ulHTML = document.createElement('ul');
+//     ulHTML.id('input_list');
+//     form.append(ulHTML);
+
+// });
 
 
-const list = [];
-// WRITE YOUR CODE IN HERE:
+// const categoryList = document.getElementById('category_list');
+// categoryList.addEventListener('change', (e) => {
+//     e.preventDefault();
+//     document.querySelector('input').placeholder = "Enter item";
+//     document.querySelector('button').disabled = false;
+// }, false);
 
-let button = document.createElement("button");
 
-let div = document.querySelector('div');
 
-for (let i = 0; i < 100; i++) {
-    div.appendChild(button);
-}
+
+
+
+
+// document.querySelector('input').placeholder = "Enter item";
+// document.querySelector('button').disabled = false;
+
+// const inputDiv = document.querySelector('#input');
+// const inputList = document.querySelector('#input_list');
+// const form = document.querySelector('form');
+
+
+// form.addEventListener('submit', function(e) {
+//     e.preventDefault();
+//     //alert("hello");
+//     const userInput = document.getElementById('userInput');
+//     const newItem = document.createElement('li');
+//     newItem.append(userInput.value);
+//     inputList.append(newItem);
+//     //addItem(userInput);
+//     userInput.value = '';
+
+// });
+
+
+// const addItem = (userInput) => {
+//     const newItem = document.createElement('li');
+//     newItem.append(userInput.value);
+//     inputList.append(newItem);
+// }
+
+// // event listener for select
+
+
+console.log("hello");
