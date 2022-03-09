@@ -15,3 +15,38 @@
 #nav_spacing {
     padding-top: 95px;
 }
+
+
+/* 
+#myinputred {
+    background: linear-gradient(to right, #ff0000 0%, #ff0000 50%, #fff 50%, #fff 100%);
+    border: solid 1px #ff0000;
+    border-radius: 8px;
+    height: 7px;
+    width: 180px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+#myinputgreen {
+    background: linear-gradient(to right, #00ff00 0%, #00ff00 50%, #fff 50%, #fff 100%);
+    border: solid 1px #00ff00;
+    border-radius: 8px;
+    height: 7px;
+    width: 180px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+#myinputblue {
+    background: linear-gradient(to right, #0000ff 0%, #0000ff 50%, #fff 50%, #fff 100%);
+    border: solid 1px #0000ff;
+    border-radius: 8px;
+    height: 7px;
+    width: 180px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+} */
