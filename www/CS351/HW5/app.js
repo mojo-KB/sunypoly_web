@@ -1,5 +1,6 @@
-let b = document.getElementById('btn');
+const button = document.querySelector('#btn');
 
-b.addEventListener('submit', () => {
-    console.log(document.getElementById('red-range').value);
+button.addEventListener('submit', e => {
+    e.preventDefault();
+    alert("hello");
 })
