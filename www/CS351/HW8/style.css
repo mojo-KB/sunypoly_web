@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #002C73;
+    color: white;
+}
+
+#nav-text {
+    color: white;
+}
+
+#school-logo {
+    width: 25em;
+    padding-right: 5em;
+}
+
+#nav_spacing {
+    padding-top: 95px;
+}
