@@ -23,7 +23,6 @@ async function loadEdit() {
     })
 
     resetBtn.addEventListener('click', (e) => {
-        e.preventDefault();
         document.querySelector('#userInput').disabled = true;
         document.querySelector('#category_list').disabled = false;
         document.querySelector('#userInput').setAttribute("placeholder", `Please choose a category`)
