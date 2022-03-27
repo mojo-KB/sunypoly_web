@@ -19,11 +19,11 @@ main_form.addEventListener("submit", e => {
     //alert(categoryList.value)
     const newRow = document.createElement('tr');
     const newName = document.createElement('td');
-    newName.innerText = Name;
+    newName.innerText = inputUser.value;
     const newTopic = document.createElement('td');
-    newTopic = categoryList.value;
+    newTopic.innerText = categoryList.value;
     const newData = document.createElement('td');
-    newData = post.value;
+    newData.innerText = post.value;
     newRow.append(newName);
     newRow.append(newTopic);
     newRow.append(newData);
