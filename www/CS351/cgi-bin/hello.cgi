@@ -1,5 +1,4 @@
-#!/usr/bin/perl 
-
+#!/usr/bin/perl -T
 
 BEGIN {
    open (STDERR, ">&STDOUT");
@@ -7,4 +6,4 @@ BEGIN {
    select(STDOUT); $| = 1;
    print "Content-type: text/html\n\n";
 }
-print "HELLO WORLD";
+print "<h1> HELLO WORLD </h1>\n"
