@@ -7,3 +7,6 @@ BEGIN {
    print "Content-type: text/html\n\n";
 }
 print "<h1> HELLO WORLD </h1>\n"
+print "<font color=green>Done!</font>\n";
+print "<font color=red>Done!</font>\n";
+print "<font color=green>Done!</font>\n";
