@@ -4,7 +4,7 @@
  * Also shows the poition of the point when you click on the map
  */
 // Creates a new map 
-var map = L.map('mapid').setView([43.107204, -75.252312]);
+var map = L.map('mapid').setView([51.508, -0.11], 11);
 
 // Creates a streetview layer and inports layer image from OpenStreetMap
 var streetView = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -15,27 +15,24 @@ var streetView = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 streetView.addTo(map);
 
 // Creates a circle for London and adds it to the map
-var london = L.circle([43.107204, -75.252312], {
+var london = L.circle([51.505176, -0.125694], {
     color: 'red',
-    fillColor: '#00FF00',
+    fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 1000
 }).addTo(map).bindPopup('This is London');
 
 // Creates a circle for Greenwich and adds it to the map
+var greenwich = L.circle([51.480955, -0.005493], {
+    color: 'green',
+    fillColor: '#03f',
+    fillOpacity: 0.5,
+    radius: 1000
+}).addTo(map).bindPopup('This is Greenwich');
 
 
-// var greenwich = L.circle([51.480955, -0.005493], {
-
-//     color: 'green',
-//     fillColor: '#03f',
-//     fillOpacity: 0.5,
-//     radius: 1000
-// }).addTo(map).bindPopup('This is Greenwich');
-
-
-// var wimbledon = L.marker([51.425758, -0.218353]).bindPopup('This is Wimbledon').addTo(map); // Marker for Wimbledon
-// var stratford = L.marker([51.538648, 0.009613]).bindPopup('This is Stratford').addTo(map); // Marker for Stratfor
+var wimbledon = L.marker([51.425758, -0.218353]).bindPopup('This is Wimbledon').addTo(map); // Marker for Wimbledon
+var stratford = L.marker([51.538648, 0.009613]).bindPopup('This is Stratford').addTo(map); // Marker for Stratfor
 
 var circles = L.layerGroup([london, greenwich]); // Creates a Layer Group consisting of circles
 var markers = L.layerGroup([wimbledon, stratford]); // Creates a Layer Group consisting of markers
