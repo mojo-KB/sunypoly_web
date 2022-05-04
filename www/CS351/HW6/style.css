@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #002C73;
+    color: white;
+}
+
+#nav-text {
+    color: white;
+}
+
+#school-logo {
+    width: 25em;
+    padding-right: 5em;
+}
+
+#nav_spacing {
+    padding-top: 95px;
+}
+
+#myinput {
+    background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 7px;
+    width: 356px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+#myinputgreen {
+    background: linear-gradient(to right, #00ff00 0%, #00ff00 50%, #fff 50%, #fff 100%);
+    border: solid 1px #00ff00;
+    border-radius: 8px;
+    height: 7px;
+    width: 180px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+#myinputblue {
+    background: linear-gradient(to right, #0000ff 0%, #0000ff 50%, #fff 50%, #fff 100%);
+    border: solid 1px #0000ff;
+    border-radius: 8px;
+    height: 7px;
+    width: 180px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
